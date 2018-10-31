@@ -183,6 +183,7 @@ public class DPManager {
 							
 							String base64 = encode(rawCompress);
 							Log.d("DPManager",base64);
+							byte[] imageData = ISOFid.getViews()[0].getImageData();
 							
 							DPManagerCallback.onBitmapUpdate(0, 0, base64);
 							
