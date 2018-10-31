@@ -3,7 +3,7 @@ package pt.deloitte.entel.plugin;
 public interface DPManagerCallback {
     void onDPFingerStatusUpdate(int DPFingerStatus);
 
-    void onBitmapUpdate(int width, int height, String base64String, byte[] imageData);
+    void onBitmapUpdate(int width, int height, String base64String);
 
     void onPercentageUpdate(int percentage);
 
